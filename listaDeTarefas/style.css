@@ -1,0 +1,71 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    transition: .5s;
+    font-family: sans-serif,Arial, Helvetica, sans-serif;
+}
+
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    width: 100%;
+    background-color: #060c21;
+    color: #000;
+}
+
+
+section#container {
+    width: 700px;
+    height: 700px;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+/* Div da lista de tarefas */
+
+div#listaDeTarefas {
+    position: relative;
+    min-height: 40vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+}
+
+
+/* Input de escrever a lista */
+
+input {
+    border: none;
+    outline: none;
+    background-color: transparent;
+    border: solid 1px #181818;
+    border-radius: 10px;
+    padding: 8px;
+}
+
+
+/* Botão de adicionar */
+
+button {
+    border: none;
+    outline: none;
+    background-color: transparent;
+    border: solid 1px #181818;
+    border-radius: 10px;
+    padding: 8px;
+    cursor: pointer;
+}
+
+
+button:hover {
+    border: solid 1px #0ff;
+}
